@@ -32,3 +32,10 @@ conda activate bwa
 conda install bwa
 ```
 
+## 3. Installing SAMtools and BCFtools
+
+```bash
+conda create -n variantcall -c conda-forge -c bioconda samtools bcftools
+conda activate variantcall
+```
+
